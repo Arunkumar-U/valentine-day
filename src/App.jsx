@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react'
 import confetti from 'canvas-confetti'
-import videoFile from './assets/vid.mp4'
+import videoFile from './assets/valentine.mp4'
 import './App.css'
 
 function App() {
@@ -118,7 +118,7 @@ function App() {
       ) : (
         <div className="card">
           <h1 className="title">
-            <span className="highlight">,</span>
+            <span className="highlight">Srinidhi,</span>
             Will you be my Valentine? 💖💞
           </h1>
 
@@ -131,14 +131,14 @@ function App() {
               onMouseEnter={handleYesHover}
               onClick={handleYesHover}
             >
-              YES
+              NO
             </button>
 
             <button
               className="btn no-btn"
               onClick={handleNoClick}
             >
-              NO
+              YES
             </button>
           </div>
         </div>
