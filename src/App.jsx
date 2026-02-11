@@ -125,7 +125,7 @@ function App() {
             With love Vimal 💖💞
           </h1>
 
-          <p className="subtext">Choose wisely. (The "Yes" button is... playing hard to get.)</p>
+          <p className="subtext">Choose wisely. (The "No" button is... playing hard to get.)</p>
 
           <div className="btn-group">
             <button
