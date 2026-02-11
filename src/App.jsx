@@ -121,11 +121,10 @@ function App() {
             <span className="highlight">Srinidhi,</span>
             Will you be my Valentine? 💖💞
           </h1>
-          <h1 className="title">
-            With love Vimal 💖💞
-          </h1>
+
 
           <p className="subtext">Choose wisely. (The "No" button is... playing hard to get.)</p>
+          <p className="subtext">With love Vimal 💖💞</p>
 
           <div className="btn-group">
             <button
